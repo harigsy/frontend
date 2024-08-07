@@ -24,7 +24,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    
+        cache-dependency-path: /home/ubuntu/frontend/_work/frontend/frontend/my-react-app/package-lock.json
+        
     - name: Install Dependencies
       run: npm ci
       working-directory: /home/ubuntu/frontend/_work/frontend/frontend/my-react-app/
