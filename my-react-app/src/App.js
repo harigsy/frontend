@@ -2,7 +2,7 @@
 function App() {
   return (
     <div>
-      <h1>Welcome to AWS CI/CD</h1>
+        <h2>Welcome to AWS CI/CD</h2>
     </div>
   );
 }
